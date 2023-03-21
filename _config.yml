@@ -1,5 +1,5 @@
 # Theme
-remote_theme: epidrome/cover-card@main
+remote_theme: UmarJ/cover-card@main
 
 # Title and tag line
 title: 'Muhammad Umar Javed'
@@ -68,6 +68,7 @@ social-links:
 
   - name: linkedin
     url-pattern: linkedin.com/in/__USERNAME__
+    description: LinkedIn
 
   - name: google-plus
     url-pattern: plus.google.com/+__USERNAME__
@@ -90,6 +91,7 @@ social-links:
   - name: github-user
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
+    description: GitHub
 
   - name: gitlab-user
     url-pattern: gitlab.com/__USERNAME__
@@ -156,7 +158,9 @@ social-links:
     url-scheme: 'mailto:'
     url-pattern: '__USERNAME__'
     icon-class: far fa-2x fa-envelope-open
+    description: Email
   
   - name: scholar
     url-pattern: scholar.google.com/citations?user=__USERNAME__
     icon-class: fas fa-2x fa-graduation-cap
+    description: Scholar
